@@ -37,7 +37,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'pry-rails'
-
+gem 'tty-spinner'
 gem 'railties', '>= 5.2.8.1'
 
 group :development, :test do
