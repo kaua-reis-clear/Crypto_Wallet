@@ -5,3 +5,25 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+puts "Cadastrando as moedas..."
+
+Coin.create!(
+  description: "Bitcoin",
+  acronym: "BTC",
+  url_image: "https://static.vecteezy.com/system/resources/previews/008/505/801/original/bitcoin-logo-color-illustration-png.png"
+)
+
+Coin.create!(
+  description: "Etherem",
+  acronym: "ETH",
+  url_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/2048px-Ethereum-icon-purple.svg.png"
+)
+
+Coin.create!(
+  description: "Dash",
+  acronym: "DASH",
+  url_image: "https://media.dash.org/wp-content/uploads/dash-d.png"
+)
+
+puts "Moedas cadastradas com sucesso!"

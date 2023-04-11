@@ -15,7 +15,7 @@ class CoinsTest < ApplicationSystemTestCase
     click_on "New Coin"
 
     fill_in "Acronym", with: @coin.acronym
-    fill_in "Decription", with: @coin.decription
+    fill_in "description", with: @coin.description
     fill_in "Url image", with: @coin.url_image
     click_on "Create Coin"
 
@@ -28,7 +28,7 @@ class CoinsTest < ApplicationSystemTestCase
     click_on "Edit", match: :first
 
     fill_in "Acronym", with: @coin.acronym
-    fill_in "Decription", with: @coin.decription
+    fill_in "description", with: @coin.description
     fill_in "Url image", with: @coin.url_image
     click_on "Update Coin"
 
