@@ -24,7 +24,7 @@ namespace :dev do
           },
 
           {
-            description: "Etherem",
+            description: "Ethereum",
             acronym: "ETH",
             url_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/2048px-Ethereum-icon-purple.svg.png"
           },
