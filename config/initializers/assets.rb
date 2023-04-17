@@ -13,9 +13,7 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # folder are already added.
 Rails.application.config.assets.precompile += %w( cable.js
                                                   coins.js
-                                                  jquery.js
                                                   mining_types.js
-                                                  notify.js
                                                   welcome.js
                                                 )
 
